@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.m416{
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    min-width: 60vw;
+    max-width: 75vw;
+    color: white;
+}
+.awm{
+    flex: 6;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.awm .text-box {
+    max-width: 85%;
+}
+
+.awm h1 {
+    margin-bottom: 16px;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+}
+
+.awm .text-box p {
+    margin-top: 20px;
+    width: 95%;
+    line-height: 24px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.scar {
+    color: hsl(277, 64%, 61%);
+}
+
+.companies {
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    justify-self: flex-end;
+}
+
+.company h2 {
+    margin-bottom: 8px;
+}
+
+.company p {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.img-box {
+    flex: 6;
+    position: relative;
+}
+
+.img-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-box .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+    opacity: 0.65;
+}
